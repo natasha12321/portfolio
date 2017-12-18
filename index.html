@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta charset = "utf-8">
+</head>
+
+<body>
+            
+   <ul id="slide-out" class="side-nav ">
+    <li><div class="user-view ">
+      <div class="background ">
+        <img src="img/car.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="img/photo.jpg"></a>
+      <a href="#!name"><span class="white-text name">Наташа Васько</span></a>
+      <a href="#!email"><span class="white-text email">v_natasha_p@mail.ru</span></a>
+    </div></li>
+    <li><a href="index1.html"><i class="material-icons">cloud</i>О себе</a></li>
+        <li><a href="rabota.html"><i class="material-icons">ac_unit</i> Мои Работы</a></li>
+  </ul>
+      <a href="#" data-activates="slide-out" class="button-collapse click"><i class="material-icons large">dashboard</i></a> 
+    
+    <div class="slider fullscreen">
+    <ul class="slides">
+          <li>
+            <img src="img/banner.jpg"> 
+            <div class="caption center-align">
+             <h3>Я Наташа Васько, начинающий программист из Якутска</h3>
+
+               <a href = "index1.html" class ="waves-effect waves-light btn">ПОРТФОЛИО</a>
+            </div>
+            </li>
+            <li>
+            <img src="img/banner2.jpg"> 
+            <div class="caption center-align">
+             <h3>Я Наташа Васько, начинающий программист из Якутска</h3>
+
+               <a href = "index1.html" class ="waves-effect waves-light btn">ПОРТФОЛИО</a>
+            </div>
+            </li>
+            <li>
+            <img src="img/banner3.jpg"> 
+            <div class="caption center-align">
+             <h3>Я Наташа Васько, начинающий программист из Якутска</h3>
+
+               <a href = "index1.html" class ="waves-effect waves-light btn">ПОРТФОЛИО</a>
+            </div>
+            </li>
+
+    </ul>
+  </div>
+    
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.slider').slider();
+             $(".button-collapse").sideNav();
+        });
+    </script>
+</body>
+
+</html>
